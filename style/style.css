@@ -98,7 +98,7 @@ body {
 
 .text_1 {
   max-width: 1200px;
-  margin: 6rem 1rem;
+  margin: 3rem 1rem;
   font-size: 2rem;
   line-height: 3.3rem;
   padding-bottom: 2.5rem;
@@ -117,9 +117,7 @@ body {
 }
 .contents p {
   font-family: "IBM Plex Mono", monospace;
-  text-align: center;
   font-size: 6rem;
-  margin: 0 0 6 rem 0;
 }
 
 .bg_02 {
@@ -130,21 +128,18 @@ body {
 
 .contents_1 {
   width: 100%;
-  margin: 10rem 1rem 1rem 1rem;
+  margin: 6rem 1rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.contents_1 p {
-  width: 100%;
-  margin: 0 0 2rem 0;
 }
 
 table {
   border-top: 2px solid #000;
   border-collapse: collapse;
   width: 100%;
+  margin: 0 1rem;
   max-width: 1200px;
   align-items: center;
 }
@@ -223,10 +218,22 @@ a:visited {
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
+  .contents_1 {
+    font-size: 1.5rem;
+  }
+  .contents {
+    font-size: 1.5rem;
+  }
+  .contents p {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 360px) {
   .text_1 {
     font-size: 1.2rem;
     line-height: 2rem;
+  }
+  .contents p {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
